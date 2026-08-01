@@ -23,7 +23,7 @@ consensus:
     version: 26.7.1
   prysm:
     name: gcr.io/prysmaticlabs/prysm/beacon-chain
-    version: v7.1.7
+    version: v7.1.8
   nimbus:
     name: statusim/nimbus-eth2
     version: multiarch-v26.7.0
@@ -39,7 +39,7 @@ validator:
     version: 26.7.1
   prysm:
     name: gcr.io/prysmaticlabs/prysm/validator
-    version: v7.1.7
+    version: v7.1.8
   nimbus:
     name: statusim/nimbus-validator-client
     version: multiarch-v26.7.0
@@ -59,8 +59,8 @@ opexecution:
     name: nethermind/nethermind
     version: 1.39.2
   opreth:
-    name: us-docker.pkg.dev/oplabs-tools-artifacts/images/op-reth
-    version: v2.4.1
+    name: ghcr.io/paradigmxyz/op-reth
+    version: v1.9.1
 taiko:
   taikoclient:
     name: us-docker.pkg.dev/evmchain/images/taiko-client
